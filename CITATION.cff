@@ -3,7 +3,7 @@ message: "If you use this report, please cite it as below."
 authors:
   - family-names: "Wyszomirski"
     given-names: "Paweł"
-    affiliation: "Silesian Startup Foundation"
+    affiliation: "wyszomirski.online"
   - family-names: "Skorupa"
     given-names: "Małgorzata"
     affiliation: "Silesian Startup Foundation"
