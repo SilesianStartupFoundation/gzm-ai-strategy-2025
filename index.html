@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="pl" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- =======================================================================
+         SEO & LEO (LLM Engine Optimization) META TAGS [2025 STANDARDS]
+    ======================================================================== -->
+    <title>Ekosystem AI GZM – Mapa Interesariuszy Sztucznej Inteligencji (2025)</title>
+    <meta name="description" content="Interaktywna mapa ekosystemu AI w Górnośląsko-Zagłębiowskiej Metropolii. Baza 66+ podmiotów: uczelnie, startupy, firmy technologiczne i samorządy budujące potencjał AI na Śląsku.">
+    <meta name="keywords" content="AI GZM, Sztuczna Inteligencja Śląsk, Ekosystem Startupów, Metropolia GZM, Innowacje Katowice, Politechnika Śląska AI, Transformacja Cyfrowa">
+    <meta name="author" content="Górnośląsko-Zagłębiowska Metropolia & Paweł Wyszomirski">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ekosystem AI GZM – Mapa Interesariuszy">
+    <meta property="og:description" content="Zobacz pełną mapę potencjału AI w Metropolii GZM. Ponad 60 kluczowych podmiotów, dane o inwestycjach i specjalizacjach.">
+    <meta property="og:url" content="https://pawel-wyszomirski.github.io/gzm-ai-strategy-2025/">
+    <meta property="og:site_name" content="GZM AI Strategy">
+    <!-- Placeholder image pointing to repo preview -->
+    <meta property="og:image" content="https://raw.githubusercontent.com/pawel-wyszomirski/gzm-ai-strategy-2025/main/assets/preview.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ekosystem AI GZM 2025">
+    <meta name="twitter:description" content="Interaktywna mapa potencjału AI na Śląsku i w Zagłębiu.">
+
+    <!-- LEO: LLM Context Source -->
+    <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/pawel-wyszomirski/gzm-ai-strategy-2025/main/llms.txt" title="LLM Context Data">
+    <link rel="canonical" href="https://pawel-wyszomirski.github.io/gzm-ai-strategy-2025/">
+
+    <!-- Favicon (Inline SVG for performance) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%2300FFC2%22/><path d=%22M30 70L50 30L70 70M40 55H60%22 stroke=%22black%22 stroke-width=%228%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 fill=%22none%22/></svg>">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['Space Grotesk', 'monospace'], // Używamy jako "Display" font
+                    },
+                    colors: {
+                        aiba: {
+                            black: '#050505',
+                            dark: '#121212',
+                            card: '#1A1A1A',
+                            cyan: '#00FFC2', // AIBA Hero Color
+                            cyanDim: 'rgba(0, 255, 194, 0.1)',
+                        },
+                        // Neonowe warianty kategorii dla Dark Mode
+                        cat: {
+                            science: '#00CCFF', // Neon Blue
+                            industry: '#FF00FF', // Neon Magenta
+                            admin: '#FFAA00',   // Neon Orange
+                            infra: '#FF4444'    // Neon Red
+                        }
+                    },
+                    boxShadow: {
+                        'neon': '0 0 20px rgba(0, 255, 194, 0.15)',
+                        'neon-hover': '0 0 30px rgba(0, 255, 194, 0.3)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #050505;
+            color: #e5e5e5;
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(0, 255, 194, 0.08) 0%, transparent 40%),
+                linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+            background-size: 100% 100%, 40px 40px, 40px 40px;
+        }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f0f0f; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #333; 
+            border-radius: 4px;
+            border: 1px solid #000;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #00FFC2; 
+        }
+
+        .glass-panel {
+            background: rgba(26, 26, 26, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .glass-header {
+            background: rgba(5, 5, 5, 0.8);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .card-enter {
+            animation: fadeSlideUp 0.4s ease-out forwards;
+        }
+
+        @keyframes fadeSlideUp {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Input Glow */
+        .search-input:focus {
+            box-shadow: 0 0 0 2px rgba(0, 255, 194, 0.2), 0 0 20px rgba(0, 255, 194, 0.1);
+        }
+        
+        /* Badges hover effect */
+        .badge-hover:hover {
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col selection:bg-aiba-cyan selection:text-black">
+
+    <!-- Navbar / Header -->
+    <header class="glass-header sticky top-0 z-50">
+        <div class="max-w-[1900px] mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded bg-aiba-cyan flex items-center justify-center text-black font-bold font-mono text-xl shadow-neon transition-transform hover:scale-110">
+                    AI
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-bold font-mono tracking-tight text-white uppercase leading-none">
+                        GZM Ecosystem
+                    </h1>
+                    <p class="text-xs text-aiba-cyan font-mono tracking-widest uppercase opacity-80">
+                        Mapa Interesariuszy
+                    </p>
+                </div>
+            </div>
+
+            <!-- Search Bar (Desktop Position) -->
+            <div class="w-full md:w-[500px] relative group">
+                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                    <i data-lucide="search" class="h-5 w-5 text-gray-400 group-focus-within:text-aiba-cyan transition-colors"></i>
+                </div>
+                <input 
+                    type="text" 
+                    id="search-input"
+                    aria-label="Wyszukaj podmiot lub technologię"
+                    placeholder="Wyszukaj podmiot, technologię lub miasto..." 
+                    class="search-input w-full bg-[#1A1A1A] text-white border border-white/10 rounded-full py-3 pl-12 pr-4 focus:outline-none focus:border-aiba-cyan transition-all font-sans placeholder-gray-600 text-sm"
+                    autocomplete="off"
+                >
+                <div class="absolute inset-y-0 right-0 pr-3 flex items-center">
+                    <span class="hidden md:block text-[10px] font-mono text-gray-600 border border-gray-800 rounded px-1.5 py-0.5">CTRL + K</span>
+                </div>
+            </div>
+
+            <div class="hidden md:flex items-center gap-4 text-xs font-mono text-gray-400">
+                <div class="flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-aiba-cyan animate-pulse"></span>
+                    <span>LIVE DATA</span>
+                </div>
+                <div>v.2025.2</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Metrics Bar (Bento style) -->
+    <section class="border-b border-white/5 bg-aiba-dark/50" aria-label="Kluczowe Wskaźniki">
+        <div class="max-w-[1900px] mx-auto px-6 py-6">
+            <h2 class="text-xs font-mono text-gray-500 uppercase tracking-widest mb-4">Kluczowe Wskaźniki / Key Metrics</h2>
+            <div id="metrics-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- Metrics injected JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow p-4 md:p-6 lg:p-8">
+        <!-- Search Results Count (Hidden by default) -->
+        <div id="search-status" class="max-w-[1900px] mx-auto mb-6 hidden" role="status">
+            <div class="flex items-center gap-2 text-aiba-cyan font-mono">
+                <i data-lucide="filter" class="w-4 h-4"></i>
+                <span id="search-count-text">Znaleziono wyników: 0</span>
+                <button onclick="clearSearch()" class="ml-4 text-xs text-gray-500 hover:text-white underline">Wyczyść filtry</button>
+            </div>
+        </div>
+
+        <div id="dashboard-container" class="max-w-[1900px] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 items-start">
+            <!-- Columns injected by JS -->
+        </div>
+        
+        <!-- Empty State -->
+        <div id="empty-state" class="hidden flex-col items-center justify-center py-20 text-center">
+            <div class="w-20 h-20 rounded-full bg-white/5 flex items-center justify-center mb-6 border border-white/10">
+                <i data-lucide="search-x" class="w-10 h-10 text-gray-600"></i>
+            </div>
+            <h3 class="text-xl font-mono text-white mb-2">Brak wyników</h3>
+            <p class="text-gray-500 max-w-md mx-auto">Nie znaleziono podmiotów pasujących do Twojego zapytania. Spróbuj zmienić słowa kluczowe.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 py-10 px-6 bg-[#020202]">
+        <div class="max-w-[1900px] mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+            
+            <!-- Left Side: Source & Links -->
+            <div class="flex flex-col gap-4">
+                <div class="text-xs text-gray-500 font-mono">
+                    <span class="text-aiba-cyan">SOURCE:</span> Raport "Algorytm GZM" (2025)
+                </div>
+                <div class="flex flex-wrap gap-2 items-center">
+                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" class="badge-hover" aria-label="Licencja CC BY 4.0">
+                        <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0">
+                    </a>
+                    <a href="https://github.com/pawel-wyszomirski/gzm-ai-strategy-2025/blob/main/llms.txt" target="_blank" class="badge-hover" aria-label="Status AI Ready">
+                        <img src="https://img.shields.io/badge/Status-AI%20Ready-green" alt="Status: AI Ready">
+                    </a>
+                    <a href="#" class="badge-hover" aria-label="Region GZM">
+                        <img src="https://img.shields.io/badge/Region-GZM%20(Silesia)-blue" alt="Region: GZM">
+                    </a>
+                    <a href="https://doi.org/10.5281/zenodo.17854611" target="_blank" class="badge-hover" aria-label="DOI">
+                        <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17854612.svg" alt="DOI">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Side: Repo Link & Counter -->
+            <div class="flex flex-col md:flex-row items-start md:items-center gap-4">
+                <a href="https://github.com/pawel-wyszomirski/gzm-ai-strategy-2025" target="_blank" class="group flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-xs font-mono border border-white/10 px-3 py-2 rounded hover:border-aiba-cyan/50">
+                    <i data-lucide="github" class="w-4 h-4"></i>
+                    <span>pawel-wyszomirski/gzm-ai-strategy-2025</span>
+                    <i data-lucide="external-link" class="w-3 h-3 opacity-50 group-hover:opacity-100"></i>
+                </a>
+                
+                <div id="total-count-display" class="font-mono text-xs bg-white/5 border border-white/10 px-4 py-2 rounded text-gray-400">
+                    LOADING DATA...
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // =============================================================================
+        // DANE
+        // =============================================================================
+        
+        const ECOSYSTEM_DATA = {
+            'Nauka i Badania': {
+                id: 'science',
+                color: '#00CCFF', // Neon Blue
+                icon: 'microscope',
+                entities: {
+                    'Politechnika Śląska': {'weight': 100, 'details': 'POB AI, 200 naukowców, CETINO'},
+                    'Uniwersytet Śląski': {'weight': 70, 'details': 'Data Science, Bioinformatyka'},
+                    'Łukasiewicz-AI': {'weight': 80, 'details': '120 ekspertów, 50+ projektów, XAI'},
+                    'Śląski Uniw. Medyczny': {'weight': 55, 'details': 'AI w medycynie, Robotyka'},
+                    'Uniw. Ekonomiczny': {'weight': 50, 'details': 'Katedra ML, Jan Kozak'},
+                    'Akademia WSB': {'weight': 45, 'details': 'Obserwatorium AI, Data Scientist'},
+                    'WSB Merito': {'weight': 30, 'details': 'AI & Data Science'},
+                    'Akademia Humanitas': {'weight': 25, 'details': 'AI w biznesie'},
+                    'Akademia Górnośląska': {'weight': 20, 'details': 'Informatyka z AI'},
+                    'Akademia Śląska WST': {'weight': 20, 'details': 'Eksploracja danych'},
+                    'WSTI': {'weight': 20, 'details': 'Inżynieria oprogramowania'},
+                }
+            },
+            'Przemysł i Technologie': {
+                id: 'industry',
+                color: '#FF00FF', // Neon Magenta
+                icon: 'cpu',
+                entities: {
+                    'IBM Watsonx Hub': {'weight': 65, 'details': 'EMEA, Platforma AI'},
+                    'Capgemini': {'weight': 60, 'details': 'CoE Generative AI'},
+                    'Accenture': {'weight': 50, 'details': 'Centrum tech'},
+                    'PwC': {'weight': 45, 'details': 'Consulting AI'},
+                    'ING Tech Poland': {'weight': 40, 'details': 'FinTech'},
+                    'Future Processing': {'weight': 75, 'details': '200+ inż., NVIDIA Inception'},
+                    'AIUT': {'weight': 70, 'details': 'Robotyka, Przemysł 4.0, Lab AMR'},
+                    'KP Labs': {'weight': 55, 'details': 'AI satelitarna, Nano'},
+                    'Landingi': {'weight': 45, 'details': 'SaaS, 80 krajów, Asystent AI'},
+                    'Stellantis': {'weight': 65, 'details': '1.3 mld PLN, EV'},
+                    'Tauron': {'weight': 60, 'details': 'OPTI AI UNIT, Smart Grid'},
+                    'Grenevia (Famur)': {'weight': 45, 'details': 'Automatyzacja, Green Tech'},
+                    'Blees': {'weight': 50, 'details': 'Autonomiczne minibusy'},
+                    'Revolve Healthcare': {'weight': 45, 'details': 'ABAStroke, MedTech'},
+                    'QSystems.pro': {'weight': 40, 'details': 'ML logistyka, Spin-off PŚ'},
+                    'FLY-GEN': {'weight': 38, 'details': 'Projektowanie leków in silico'},
+                    'ThinkPath.ai': {'weight': 35, 'details': 'EdTech, Kopalnia Startupów'},
+                    'Ennecor': {'weight': 35, 'details': 'Patent EU, Sieci neuronowe'},
+                    '3Soft/Occubee': {'weight': 30, 'details': 'Prognozowanie popytu'},
+                    'co.brick': {'weight': 28, 'details': 'Automatyzacja'},
+                    'Graylight Imaging': {'weight': 28, 'details': 'Spin-off FP, Radiologia'},
+                    'Sens.AI': {'weight': 28, 'details': 'Spin-off FP, Diagnostyka'},
+                    'Cardio4D': {'weight': 28, 'details': 'Spin-off FP, Kardiologia'},
+                    'SR Robotics': {'weight': 25, 'details': 'Roboty podwodne'},
+                    'Cyberus Labs': {'weight': 30, 'details': 'Cyberbezpieczeństwo ML'},
+                    'Digital Fingerprints': {'weight': 28, 'details': 'Biometria, Autoryzacja'},
+                    'Voucherify': {'weight': 30, 'details': 'Marketing AI'},
+                    'Ludus AI': {'weight': 25, 'details': 'Automatyzacja gier'},
+                }
+            },
+            'Administracja i Samorząd': {
+                id: 'admin',
+                color: '#FFAA00', // Neon Orange
+                icon: 'building-2',
+                entities: {
+                    'GZM': {'weight': 100, 'details': '41 gmin, Data Store 646 zbiorów'},
+                    'ZTM': {'weight': 85, 'details': 'WWO AI, SDIP, Voicebot 2026'},
+                    'Min. Cyfryzacji': {'weight': 75, 'details': 'Status wiodący 2027, PLLuM'},
+                    'Urząd Marszałkowski': {'weight': 50, 'details': 'Kampus GZM'},
+                    
+                    'Katowice': {'weight': 70, 'details': 'ITS 112 skrz., Hub Gaming 1mld'},
+                    'Gliwice': {'weight': 60, 'details': '100 Intelligent Cities, ICC'},
+                    'Tychy': {'weight': 65, 'details': 'Smart City Awards, ITS'},
+                    'Sosnowiec': {'weight': 50, 'details': 'Gmina członkowska, Transformacja'},
+                    'Bytom': {'weight': 50, 'details': '100 Intelligent Cities, Rewitalizacja'},
+                    'Zabrze': {'weight': 50, 'details': 'Medycyna, Startup City, GZM'},
+                    'Ruda Śląska': {'weight': 45, 'details': 'Przemysł 4.0, GZM'},
+                    'Chorzów': {'weight': 45, 'details': 'Park Śląski, Cyfryzacja, GZM'},
+                    'Dąbrowa Górnicza': {'weight': 45, 'details': 'Akademia WSB, Przemysł'},
+                    'Mysłowice': {'weight': 40, 'details': 'Smart City, GZM'},
+                    'Siemianowice Śląskie': {'weight': 40, 'details': 'Rewitalizacja, GZM'},
+                    'Tarnowskie Góry': {'weight': 40, 'details': 'UNESCO, Turystyka, GZM'},
+                    'Piekary Śląskie': {'weight': 35, 'details': 'Transformacja, GZM'},
+                    'Świętochłowice': {'weight': 35, 'details': 'MPL Techma, GZM'},
+                    'Będzin': {'weight': 35, 'details': 'Logistyka, GZM'},
+                    'Mikołów': {'weight': 35, 'details': 'Eko-miasto, GZM'},
+                    'Czeladź': {'weight': 30, 'details': 'Logistyka, GZM'},
+                    'Knurów': {'weight': 30, 'details': 'Strefa ekonomiczna, GZM'},
+
+                    'Bieruń': {'weight': 20, 'details': 'Gmina członkowska'},
+                    'Lędziny': {'weight': 20, 'details': 'Gmina członkowska'},
+                    'Łaziska Górne': {'weight': 20, 'details': 'Energetyka, GZM'},
+                    'Pyskowice': {'weight': 20, 'details': 'Gmina członkowska'},
+                    'Radzionków': {'weight': 20, 'details': 'Gmina członkowska'},
+                    'Sławków': {'weight': 20, 'details': 'Terminal, GZM'},
+                    'Wojkowice': {'weight': 20, 'details': 'Gmina członkowska'},
+                    'Imielin': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Siewierz': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Sośnicowice': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Ożarowice': {'weight': 15, 'details': 'Port Lotniczy, GZM'},
+                    'Bobrowniki': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Bojszowy': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Chełm Śląski': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Gierałtowice': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Kobiór': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Mierzęcice': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Pilchowice': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Psary': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Rudziniec': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Świerklaniec': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Wyry': {'weight': 15, 'details': 'Gmina członkowska'},
+                    'Zbrosławice': {'weight': 15, 'details': 'Gmina członkowska'},
+                }
+            },
+            'Infrastruktura i Huby': {
+                id: 'infra',
+                color: '#FF4444', // Neon Red
+                icon: 'network',
+                entities: {
+                    'CETINO': {'weight': 95, 'details': '127 mln PLN, CoaaS, 15 naukowców'},
+                    'GECON.II': {'weight': 60, 'details': 'Fat-node, 128 rdzeni, HPC'},
+                    'PLGrid': {'weight': 65, 'details': 'Fabryka AI, Superkomputer'},
+                    'ŚASK/PIONIER': {'weight': 70, 'details': '100-200 Gb/s, Redundant 400Gb'},
+                    'EDIH Silesia': {'weight': 75, 'details': 'Smart City, Test Before Invest'},
+                    'Silesia Automotive': {'weight': 65, 'details': 'SA&AM, 260 podmiotów'},
+                    'KSSE': {'weight': 60, 'details': 'Strefa ekonomiczna'},
+                    'Technopark Gliwice': {'weight': 50, 'details': 'Inkubator'},
+                    'Euro-Centrum': {'weight': 45, 'details': 'Park tech'},
+                    'Katowicki Hub Gaming': {'weight': 70, 'details': '1 mld PLN, STRABAG'},
+                    'Silesia Smart Systems': {'weight': 45, 'details': 'Klaster IoT'},
+                    'Polski Klaster IoT': {'weight': 50, 'details': 'Sinotaic, EDIH'},
+                    'Silesia Startup Fund': {'weight': 40, 'details': 'Wsparcie startupów'},
+                    'Śniadania AI': {'weight': 35, 'details': 'Społeczność praktyków'},
+                    'Rawa.Ink': {'weight': 30, 'details': 'Społeczność tech'},
+                    'AI Miners': {'weight': 30, 'details': 'Społeczność AI'},
+                    'MFWN': {'weight': 55, 'details': 'Metropolia Nauki, 2.5 mln 2025'},
+                }
+            }
+        };
+
+        const KEY_METRICS = [
+            { label: 'Gminy Członkowskie', val: '41', color: '#00CCFF', details: 'Pełna integracja' },
+            { label: 'Zbiory Otwartych Danych', val: '646', color: '#FF00FF', details: 'Open Data GZM' },
+            { label: 'Status Krajowy', val: 'Wiodący', color: '#FFAA00', details: 'Cel na rok 2027' },
+            { label: 'Inwestycje Kluczowe', val: '1.1 mld+', color: '#FF4444', details: 'Hub Gaming + CETINO' }
+        ];
+
+        // =============================================================================
+        // LEO: DYNAMICZNE GENEROWANIE JSON-LD DLA LLM-ów
+        // =============================================================================
+        
+        function injectJSONLD() {
+            const schema = {
+                "@context": "https://schema.org",
+                "@type": "DataCatalog",
+                "name": "Ekosystem AI GZM",
+                "description": "Kompleksowa mapa podmiotów i zasobów sztucznej inteligencji w Górnośląsko-Zagłębiowskiej Metropolii.",
+                "creator": {
+                    "@type": "Organization",
+                    "name": "GZM"
+                },
+                "dateModified": new Date().toISOString().split('T')[0],
+                "dataset": []
+            };
+
+            // Konwersja naszych danych JS na Schema.org
+            for (const [catName, catData] of Object.entries(ECOSYSTEM_DATA)) {
+                for (const [entityName, entityData] of Object.entries(catData.entities)) {
+                    schema.dataset.push({
+                        "@type": "Dataset",
+                        "name": entityName,
+                        "description": entityData.details,
+                        "keywords": [catName, "AI", "GZM", "Silesia"]
+                    });
+                }
+            }
+
+            const script = document.createElement('script');
+            script.type = "application/ld+json";
+            script.text = JSON.stringify(schema);
+            document.head.appendChild(script);
+            console.log("LEO: JSON-LD injected for LLM context.");
+        }
+
+        // =============================================================================
+        // LOGIKA APLIKACJI
+        // =============================================================================
+
+        function renderMetrics() {
+            const container = document.getElementById('metrics-container');
+            container.innerHTML = '';
+            
+            KEY_METRICS.forEach(metric => {
+                const el = document.createElement('div');
+                el.className = 'glass-panel p-4 rounded-lg border-l-2 relative overflow-hidden group';
+                el.style.borderLeftColor = metric.color;
+                
+                el.innerHTML = `
+                    <div class="absolute right-0 top-0 p-3 opacity-10 group-hover:opacity-20 transition-opacity">
+                        <i data-lucide="activity" class="w-12 h-12" style="color:${metric.color}"></i>
+                    </div>
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest font-mono mb-1">${metric.label}</div>
+                    <div class="text-2xl font-bold text-white font-mono tracking-tighter">${metric.val}</div>
+                    <div class="text-xs text-gray-400 mt-1">${metric.details}</div>
+                `;
+                container.appendChild(el);
+            });
+        }
+
+        function renderDashboard(filterText = '') {
+            const container = document.getElementById('dashboard-container');
+            const emptyState = document.getElementById('empty-state');
+            const searchStatus = document.getElementById('search-status');
+            const countText = document.getElementById('search-count-text');
+            
+            container.innerHTML = '';
+            let totalRendered = 0;
+            let totalEcosystemSize = 0;
+            let hasAnyResults = false;
+
+            const normalizedFilter = filterText.toLowerCase().trim();
+
+            for (const [catName, catData] of Object.entries(ECOSYSTEM_DATA)) {
+                const entitiesEntries = Object.entries(catData.entities);
+                totalEcosystemSize += entitiesEntries.length;
+                
+                const filteredEntries = entitiesEntries.filter(([name, data]) => {
+                    return name.toLowerCase().includes(normalizedFilter) || 
+                           data.details.toLowerCase().includes(normalizedFilter);
+                }).sort((a, b) => b[1].weight - a[1].weight);
+
+                if (filteredEntries.length > 0) {
+                    hasAnyResults = true;
+                    totalRendered += filteredEntries.length;
+
+                    const colDiv = document.createElement('div');
+                    colDiv.className = 'flex flex-col gap-3 h-full card-enter';
+                    
+                    const header = document.createElement('div');
+                    header.className = `p-4 rounded-lg flex items-center justify-between sticky top-20 z-10 glass-panel mb-2`;
+                    header.style.borderLeft = `3px solid ${catData.color}`;
+                    
+                    header.innerHTML = `
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="${catData.icon}" class="w-5 h-5" style="color: ${catData.color}"></i>
+                            <h2 class="font-bold font-mono text-sm uppercase tracking-wide text-gray-200">${catName}</h2>
+                        </div>
+                        <span class="text-[10px] font-mono bg-white/10 px-2 py-1 rounded text-gray-400 border border-white/5">
+                            ${filteredEntries.length}
+                        </span>
+                    `;
+                    colDiv.appendChild(header);
+
+                    const cardsContainer = document.createElement('div');
+                    cardsContainer.className = 'flex flex-col gap-2';
+                    
+                    filteredEntries.forEach(([name, data]) => {
+                        const card = createCard(name, data, catData.color);
+                        cardsContainer.appendChild(card);
+                    });
+
+                    colDiv.appendChild(cardsContainer);
+                    container.appendChild(colDiv);
+                }
+            }
+
+            if (filterText) {
+                searchStatus.classList.remove('hidden');
+                countText.innerText = `Znaleziono: ${totalRendered}`;
+                if (!hasAnyResults) {
+                    container.classList.add('hidden');
+                    emptyState.classList.remove('hidden');
+                    emptyState.classList.add('flex');
+                } else {
+                    container.classList.remove('hidden');
+                    emptyState.classList.add('hidden');
+                    emptyState.classList.remove('flex');
+                }
+            } else {
+                searchStatus.classList.add('hidden');
+                container.classList.remove('hidden');
+                emptyState.classList.add('hidden');
+                emptyState.classList.remove('flex');
+                document.getElementById('total-count-display').innerText = `TOTAL NODES: ${totalEcosystemSize}`;
+            }
+
+            lucide.createIcons();
+        }
+
+        function createCard(name, data, accentColor) {
+            const card = document.createElement('div');
+            const weight = data.weight;
+            
+            let baseClass = "glass-panel rounded border border-white/5 group relative overflow-hidden transition-all duration-300 hover:border-opacity-50 hover:-translate-y-1 hover:shadow-neon";
+            let sizeClass = "p-3";
+            let titleClass = "text-sm font-bold text-gray-200 group-hover:text-white font-mono";
+            let detailClass = "text-[10px] text-gray-500 mt-1 leading-tight group-hover:text-gray-400";
+            
+            if (weight >= 80) {
+                sizeClass = "p-5 border-l-2";
+                titleClass = "text-lg font-bold text-white font-mono uppercase tracking-tight mb-1";
+                detailClass = "text-xs text-gray-400 mt-2 font-sans";
+                card.style.borderLeftColor = accentColor;
+            } else if (weight >= 60) {
+                sizeClass = "p-4";
+                titleClass = "text-base font-bold text-gray-100 font-mono";
+            } else if (weight <= 30) {
+                titleClass = "text-xs font-semibold text-gray-300 font-mono";
+                detailClass = "hidden group-hover:block text-[9px] text-gray-500 mt-1 transition-all";
+                baseClass += " opacity-60 hover:opacity-100";
+            } else if (weight < 40) {
+                 titleClass = "text-xs font-semibold text-gray-200 font-mono";
+                 baseClass += " opacity-80 hover:opacity-100";
+            }
+
+            card.className = `${baseClass} ${sizeClass}`;
+            
+            card.innerHTML = `
+                <div class="relative z-10">
+                    <div class="${titleClass}">
+                        ${name}
+                        ${weight >= 90 ? `<span class="inline-block w-1.5 h-1.5 rounded-full bg-aiba-cyan ml-2 animate-pulse"></span>` : ''}
+                    </div>
+                    <div class="${detailClass}">
+                        ${highlightText(data.details)}
+                    </div>
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-r from-transparent to-white/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+                <div class="absolute top-0 right-0 w-8 h-8 bg-gradient-to-bl from-[${accentColor}] to-transparent opacity-0 group-hover:opacity-10 transition-opacity"></div>
+            `;
+            
+            card.addEventListener('mouseenter', () => {
+                card.style.borderColor = accentColor;
+                card.style.boxShadow = `0 0 15px ${accentColor}20`; 
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.borderColor = 'rgba(255,255,255,0.05)';
+                card.style.boxShadow = 'none';
+                if(weight >= 80) card.style.borderLeftColor = accentColor; 
+            });
+
+            return card;
+        }
+
+        function highlightText(text) {
+            return text;
+        }
+
+        let debounceTimer;
+        function handleSearch(e) {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => {
+                renderDashboard(e.target.value);
+            }, 150); 
+        }
+
+        function clearSearch() {
+            const input = document.getElementById('search-input');
+            input.value = '';
+            renderDashboard('');
+            input.focus();
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+                e.preventDefault();
+                document.getElementById('search-input').focus();
+            }
+            if (e.key === 'Escape') {
+                document.getElementById('search-input').blur();
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            renderMetrics();
+            renderDashboard();
+            injectJSONLD(); // Uruchomienie LEO injection
+            
+            const searchInput = document.getElementById('search-input');
+            searchInput.addEventListener('input', handleSearch);
+        });
+
+    </script>
+</body>
+</html>
