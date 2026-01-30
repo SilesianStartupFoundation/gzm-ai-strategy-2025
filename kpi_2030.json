@@ -1,0 +1,484 @@
+{
+  "metadata": {
+    "document_title": "GZM AI Strategy 2030 - Key Performance Indicators",
+    "strategy_name": "GZM AI-Ready (si4śl - Sztuczna Inteligencja dla Śląskiego)",
+    "baseline_year": 2025,
+    "target_year": 2030,
+    "coverage": "Górnośląsko-Zagłębiowska Metropolia (41 municipalities)",
+    "last_updated": "2025-01-30",
+    "strategic_context": {
+      "government_recognition": "Ministry of Digital Affairs recognized GZM as leading AI center (Nov 17, 2025)",
+      "effective_date": "2027-01-01",
+      "role": "Integrator - providing infrastructure, competencies, and market access",
+      "vision": "Transform post-industrial region into data-driven economy hub"
+    }
+  },
+  
+  "strategic_pillars": [
+    {
+      "pillar_id": 1,
+      "name": "Infrastructure and Data (Foundation)",
+      "description": "Building computational capacity, data governance, and digital infrastructure"
+    },
+    {
+      "pillar_id": 2,
+      "name": "Competencies and Human Capital (People)",
+      "description": "Upskilling public servants, educating citizens, building AI-ready workforce"
+    },
+    {
+      "pillar_id": 3,
+      "name": "Implementation Mechanisms and Governance (Market)",
+      "description": "Creating market demand, governance structures, and pilot programs"
+    }
+  ],
+
+  "primary_kpis": {
+    "description": "Core measurable indicators for strategy evaluation by 2030",
+    "metrics": [
+      {
+        "id": "kpi_001",
+        "category": "North Star Metric",
+        "indicator": "Active AI deployments in GZM municipalities",
+        "target_2030": 100,
+        "unit": "deployments",
+        "calculation": "~2-3 per municipality average",
+        "priority": "critical",
+        "measurement_frequency": "quarterly",
+        "responsible_entity": "GZM Strategy Office",
+        "baseline_2025": 0,
+        "notes": "Primary success indicator - demonstrates real-world AI adoption across region"
+      },
+      {
+        "id": "kpi_002",
+        "category": "Competencies",
+        "indicator": "Municipalities covered by 'Data Steward' support program",
+        "target_2030": 41,
+        "unit": "municipalities",
+        "percentage_coverage": 100,
+        "priority": "critical",
+        "measurement_frequency": "semi-annually",
+        "responsible_entity": "GZM Data Office",
+        "baseline_2025": 0,
+        "strategic_pillar": 2,
+        "notes": "Each municipality must have designated Data Steward for data quality and governance"
+      },
+      {
+        "id": "kpi_003",
+        "category": "Education",
+        "indicator": "Public servants trained in 'Civil Servant 2.0' program",
+        "target_2030": 60,
+        "unit": "percentage",
+        "target_absolute": "~5400-7200 employees",
+        "calculation_base": "9000-12000 total public servants in GZM",
+        "priority": "high",
+        "measurement_frequency": "semi-annually",
+        "responsible_entity": "GZM HR & Education Department",
+        "baseline_2025": 0,
+        "strategic_pillar": 2,
+        "notes": "Focus on identifying 'Change Leaders' within existing staff rather than mass hiring"
+      },
+      {
+        "id": "kpi_004",
+        "category": "Efficiency",
+        "indicator": "Average time from idea to pilot launch",
+        "target_2030": "< 3 months",
+        "unit": "months",
+        "target_value_max": 3,
+        "priority": "high",
+        "measurement_frequency": "quarterly",
+        "responsible_entity": "GZM Innovation Office",
+        "baseline_2025": null,
+        "methodology": "Agile Piloting approach, 'fail fast' methodology",
+        "notes": "Measures organizational agility and ability to test innovations quickly"
+      },
+      {
+        "id": "kpi_005",
+        "category": "Society",
+        "indicator": "Schools with implemented 'Generation AI' program",
+        "target_2030": 100,
+        "unit": "schools",
+        "priority": "high",
+        "measurement_frequency": "annually",
+        "responsible_entity": "Metropolitan Education Support Fund (MFWN)",
+        "baseline_2025": 0,
+        "strategic_pillar": 2,
+        "funding_sources": ["MFWN", "FESL Priority VI Education", "Erasmus+"],
+        "notes": "Building digitally aware society and future workforce; includes libraries and cultural centers as digital hubs"
+      },
+      {
+        "id": "kpi_006",
+        "category": "Infrastructure",
+        "indicator": "AI computational capacity (GPU/NPU) availability",
+        "target_2030": "100% demand satisfaction",
+        "unit": "percentage",
+        "description": "Dedicated AI computational resources for GZM ecosystem (municipalities and partners)",
+        "priority": "critical",
+        "measurement_frequency": "quarterly",
+        "responsible_entity": "CETINO / GZM Technology Infrastructure",
+        "baseline_2025": "Limited GPU capacity",
+        "strategic_pillar": 1,
+        "technical_requirements": ["Green Computing (heat recovery)", "Edge AI architecture", "Sovereignty of computation"],
+        "notes": "Access to computational time for all ecosystem participants without delays"
+      }
+    ]
+  },
+
+  "quick_wins_pilots": {
+    "description": "Immediate pilot projects ('Lighthouses') to build trust in strategy - 2026",
+    "projects": [
+      {
+        "id": "pilot_001",
+        "name": "ZTM Voice Assistant (Voicebot)",
+        "description": "Automated info-line for public transport schedules and fares",
+        "timeline": "H1 2026",
+        "expected_impact": "Quick, tangible benefit for passengers",
+        "success_metric": "Call automation rate > 70%",
+        "responsible": "ZTM GZM Operational AI Support Department",
+        "status": "planned",
+        "strategic_pillar": 3
+      },
+      {
+        "id": "pilot_002",
+        "name": "Intelligent Complaint Analysis (Feedback Loop AI)",
+        "description": "LLM-based system for categorizing citizen complaints and trend detection",
+        "use_case": "Automatic detection of infrastructure issues (e.g., potholes)",
+        "timeline": "2026",
+        "success_metric": "Response time reduction > 30%",
+        "responsible": "GZM Citizen Services",
+        "status": "planned",
+        "strategic_pillar": 3
+      },
+      {
+        "id": "pilot_003",
+        "name": "Metropolitan Digital Twin (Social)",
+        "description": "Simulation model prototype for crisis management using local computational resources",
+        "timeline": "2026",
+        "purpose": "Test CETINO infrastructure capabilities",
+        "success_metric": "Functional simulation for at least 3 crisis scenarios",
+        "responsible": "GZM Crisis Management / CETINO",
+        "status": "planned",
+        "strategic_pillar": 1
+      },
+      {
+        "id": "pilot_004",
+        "name": "GZM Campus Data Integration (Project 10.26)",
+        "description": "Automated data collection from universities (scraping/API) as technical PoC",
+        "purpose": "Test data integration processes in distributed environment",
+        "participating_entities": "6-7 universities",
+        "timeline": "2026",
+        "success_metric": "Automated integration with 80% of participating universities",
+        "responsible": "GZM Education Support",
+        "status": "planned",
+        "strategic_pillar": 1,
+        "replication_potential": "Model can be replicated for municipalities, cultural centers"
+      }
+    ]
+  },
+
+  "early_warning_system": {
+    "description": "Critical signals requiring immediate corrective action if detected in 2026 (first year)",
+    "red_flags": [
+      {
+        "risk_area": "Infrastructure",
+        "critical_signal": "Business waiting time for CETINO resources > 72 hours",
+        "threshold": "72 hours",
+        "corrective_procedure": "Audit access procedures and increase support team (One-Stop-Shop model)",
+        "severity": "high",
+        "monitoring_frequency": "weekly"
+      },
+      {
+        "risk_area": "Integration",
+        "critical_signal": "Less than 20% municipalities systemically integrated by Q4 2026",
+        "threshold": "< 20%",
+        "threshold_absolute": "< 8 municipalities",
+        "corrective_procedure": "Launch central technical team implementing standards in municipalities ('Flying Squad')",
+        "severity": "critical",
+        "monitoring_frequency": "quarterly"
+      },
+      {
+        "risk_area": "Society",
+        "critical_signal": "Social acceptance for automation drops below 50%",
+        "threshold": "< 50%",
+        "corrective_procedure": "Mandatory UX audit of systems and educational campaign for seniors",
+        "severity": "high",
+        "monitoring_frequency": "semi-annually",
+        "measurement_method": "Public opinion surveys"
+      },
+      {
+        "risk_area": "Politics",
+        "critical_signal": "Municipalities withdrawing from projects after local government changes",
+        "threshold": "> 3 withdrawals",
+        "corrective_procedure": "Implement 'Metropolitan Pact' - multi-year agreements beyond electoral terms",
+        "severity": "medium",
+        "monitoring_frequency": "continuous"
+      }
+    ]
+  },
+
+  "risk_mitigation": {
+    "description": "Key risks identified and mitigation strategies",
+    "risks": [
+      {
+        "risk_id": "risk_001",
+        "name": "Artificial Ecosystem (supply without demand)",
+        "description": "Creating grant-driven solutions that fail after funding ends",
+        "likelihood": "high",
+        "impact": "critical",
+        "source": "Dublin benchmark analysis",
+        "mitigation_strategy": {
+          "approach": "Implementation voucher mechanism requires real recipient (municipality)",
+          "verification": "Market usefulness verification",
+          "methodology": "Agile Piloting - 'fail fast' principle",
+          "implementation": "Close unsuccessful projects quickly"
+        }
+      },
+      {
+        "risk_id": "risk_002",
+        "name": "Technical Debt and Uncertainty",
+        "description": "Large hardware investments becoming obsolete before implementation",
+        "likelihood": "medium",
+        "impact": "high",
+        "mitigation_strategy": {
+          "approach": "Technology-agnostic approach",
+          "preference": "Service models (IaaS/SaaS)",
+          "requirement": "Open-source solutions instead of vendor lock-in",
+          "flexibility": "Modular architecture allowing component replacement"
+        }
+      },
+      {
+        "risk_id": "risk_003",
+        "name": "Social and Worker Resistance",
+        "description": "Fear of automation and job loss",
+        "likelihood": "medium",
+        "impact": "high",
+        "mitigation_strategy": {
+          "communication": "Clear messaging: 'automate boredom, not people'",
+          "programs": "Upskilling programs",
+          "guarantees": "Job transformation support guarantees",
+          "transparency": "Open communication about changes"
+        }
+      },
+      {
+        "risk_id": "risk_004",
+        "name": "Centralization vs. Autonomy",
+        "description": "Municipality concerns about losing independence to 'central authority'",
+        "likelihood": "high",
+        "impact": "medium",
+        "mitigation_strategy": {
+          "architecture": "Federated systems - municipalities retain data ownership",
+          "role_gzm": "GZM provides only standards and tools",
+          "governance": "Voluntary agreements, respecting municipal autonomy",
+          "transparency": "Clear delineation of competencies"
+        }
+      }
+    ]
+  },
+
+  "governance_mechanisms": {
+    "description": "Structures ensuring effective strategy implementation",
+    "mechanisms": [
+      {
+        "name": "AI Program Council",
+        "composition": ["Science representatives", "Business representatives", "Local government representatives"],
+        "role": "Advisory body",
+        "function": "Strategic guidance and project evaluation"
+      },
+      {
+        "name": "Fast Track Procedure",
+        "description": "Quick approval process for innovative projects",
+        "principle": "'No objection' mode",
+        "purpose": "Avoid decision paralysis with 41 stakeholders"
+      },
+      {
+        "name": "Annual AI State Report",
+        "frequency": "Yearly",
+        "content": "KPI evaluation and strategy assessment",
+        "purpose": "Transparent reporting and continuous improvement"
+      },
+      {
+        "name": "Progressive Conditionality Principle",
+        "description": "Gradual requirements for metropolitan funding access",
+        "stages": [
+          {
+            "stage": "I (2026)",
+            "requirement": "Digital transformation plan compliant with GZM standards + API availability"
+          },
+          {
+            "stage": "II (2027)",
+            "requirement": "20% of funding allocation dependent on real integration with GZM Data Store"
+          },
+          {
+            "stage": "III (2028+)",
+            "requirement": "Full interoperability as prerequisite for 'soft' project funding"
+          }
+        ],
+        "safety_mechanism": "If <20% municipalities integrated by 2026, launch Flying Squad intervention team"
+      }
+    ]
+  },
+
+  "implementation_voucher_system": {
+    "description": "Mechanism to stimulate internal market and break 'first implementation' deadlock",
+    "components": [
+      {
+        "name": "Implementation Vouchers",
+        "funding_coverage": "up to 85% of costs",
+        "purpose": "Municipality purchases solutions from local companies",
+        "quality_safeguards": [
+          {
+            "safeguard": "Own contribution requirement",
+            "value": "min 10-15%",
+            "purpose": "Verify real municipal business need"
+          },
+          {
+            "safeguard": "Tranche payments (Success Fee)",
+            "mechanism": "Final tranche paid after end-user adoption confirmation"
+          },
+          {
+            "safeguard": "Vendor lock-in prohibition",
+            "requirement": "Mandatory open code or API for supplier switching"
+          }
+        ],
+        "funding_sources": ["ARP/FENG (Dig.IT)", "NCBR (InfoStrateg)", "GZM own budget"]
+      },
+      {
+        "name": "Safe Sandbox",
+        "model": "Agile Piloting (Kalasatama pattern)",
+        "role_gzm": "Assumes legal and financial risk for early testing",
+        "purpose": "Allow safe experimentation"
+      },
+      {
+        "name": "Technology Bridge",
+        "model": "Irish National Linkage Programme",
+        "purpose": "Finance local startup pilots with large investors",
+        "benefit": "Connect ecosystem players"
+      }
+    ]
+  },
+
+  "data_assets": {
+    "description": "Key data resources driving AI development",
+    "assets": [
+      {
+        "name": "GZM Data Store",
+        "datasets_count": 646,
+        "openness_level": 5,
+        "description": "Highest level - machine-readable, linked data",
+        "sources": "28 municipalities + metropolitan units",
+        "expansion_year": 2025
+      },
+      {
+        "name": "ZTM Transport Data",
+        "components": [
+          {
+            "system": "SDIP (Dynamic Passenger Information System)",
+            "data_type": "Real-time vehicle location",
+            "infrastructure": "340 displays + GPS in vehicles"
+          },
+          {
+            "system": "Passenger Counting System",
+            "data_type": "Precise passenger flow data from counting gates",
+            "note": "Real-time vehicle occupancy NOT shared via Open Data due to security concerns (terrorist threat)"
+          }
+        ],
+        "value": "Enables training predictive models for public transport at unprecedented scale in Poland"
+      },
+      {
+        "name": "Planned: Polish LLM (PLLuM)",
+        "status": "Planned for hosting by GZM",
+        "reason": "Personal data security requirements",
+        "purpose": "Data sovereignty"
+      }
+    ]
+  },
+
+  "funding_sources": {
+    "description": "Main funding mechanisms for strategy implementation",
+    "sources": [
+      {
+        "name": "KPO (National Recovery Plan)",
+        "components": ["AI Factory/PLGrid revision", "Component C", "Cyber-secure Local Government"]
+      },
+      {
+        "name": "FST (Just Transition Fund)",
+        "components": ["Silesia Action 10.02", "Adult education"]
+      },
+      {
+        "name": "Digital Europe Programme",
+        "components": ["Cloud-to-Edge", "Local Digital Twins"]
+      },
+      {
+        "name": "FESL (European Social Fund+)",
+        "components": ["Action 1.4 - interoperable platforms", "Priority VI Education"]
+      },
+      {
+        "name": "FERC (European Regional Development Fund)",
+        "components": ["Digital competencies development"]
+      },
+      {
+        "name": "Metropolitan Education Support Fund (MFWN)",
+        "purpose": "Local education initiatives"
+      },
+      {
+        "name": "GZM Resilience Fund",
+        "type": "Own contribution",
+        "purpose": "Co-financing and autonomy"
+      }
+    ]
+  },
+
+  "success_pathway": {
+    "description": "Transition from Research to Scaling phase",
+    "current_phase": "Research & Initial Pilots",
+    "target_phase_2030": "Scaling & Metropolitan Integration",
+    "transformation_goal": "Post-industrial region → Data-driven economy hub",
+    "enabling_factors": [
+      "Government recognition as leading AI center (2027)",
+      "Access to supercomputers and central funding",
+      "646 open datasets (GZM Data Store)",
+      "Strong academic base (Silesian University of Technology, Łukasiewicz-AI Institute)",
+      "Industrial AI ecosystem (250+ IT companies)",
+      "CETINO computational infrastructure (127M PLN investment)"
+    ],
+    "key_challenges": [
+      "Fragmentation (41 municipalities)",
+      "Talent drain",
+      "Weak startup culture",
+      "25 separate e-administration projects (need integration)"
+    ]
+  },
+
+  "milestones_2026_2030": {
+    "2026": {
+      "q1": ["Launch Civil Servant 2.0 program", "Establish AI Program Council"],
+      "q2": ["Deploy ZTM Voicebot", "Start Data Steward network rollout"],
+      "q3": ["Complete municipality digital transformation plan assessment"],
+      "q4": ["Achieve 20% municipality integration target", "Launch Feedback Loop AI system"]
+    },
+    "2027": {
+      "key_event": "Official status as leading AI center becomes effective (Jan 1)",
+      "goals": ["Scale quick wins to production", "Achieve 30 AI deployments", "Train 20% of public servants"]
+    },
+    "2028": {
+      "goals": ["Full interoperability requirement active", "50 AI deployments", "40% public servants trained", "50 schools with Generation AI"]
+    },
+    "2029": {
+      "goals": ["70 AI deployments", "50% public servants trained", "75 schools with Generation AI"]
+    },
+    "2030": {
+      "final_targets": "All primary KPIs achieved",
+      "phase": "Mature, scaled AI ecosystem",
+      "capability": "Self-sustaining innovation environment"
+    }
+  },
+
+  "contact": {
+    "publisher": "Silesian Startup Foundation",
+    "address": "ul. Kaczyniec 9, 44-100 Gliwice, Poland",
+    "client": "Górnośląsko-Zagłębiowska Metropolia",
+    "github": "https://github.com/pawel-wyszomirski/gzm-ai-strategy-2025",
+    "ecosystem_map": "https://pawel-wyszomirski.github.io/gzm-ai-strategy-2025/",
+    "license": "CC BY 4.0",
+    "doi": "10.5281/zenodo.17854611"
+  }
+}
