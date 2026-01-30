@@ -1,0 +1,222 @@
+# Algorytm GZM: Raport o potencjale AI w Górnośląsko-Zagłębiowskiej Metropolii
+
+## Podstawowe informacje
+
+- Tytuł: Raport Algorytm GZM: Potencjał, potrzeby, kierunki działania w obszarze AI
+- Autorzy: Paweł Wyszomirski, Małgorzata Skorupa, Kuba Nagórski
+- Wydawca: Silesian Startup Foundation, Katowice 2025
+- Zleceniodawca: Górnośląsko-Zagłębiowska Metropolia
+- Licencja: Creative Commons CC BY 4.0
+- DOI: 10.5281/zenodo.17854611
+
+## Repozytorium i zasoby
+
+- GitHub: https://github.com/pawel-wyszomirski/gzm-ai-strategy-2025
+- Mapa ekosystemu AI: https://pawel-wyszomirski.github.io/gzm-ai-strategy-2025/
+- Licencja: https://creativecommons.org/licenses/by/4.0/
+
+## Sposób cytowania
+
+Wyszomirski P., Skorupa M., Nagórski K., *Raport Algorytm GZM: Potencjał, potrzeby, kierunki działania w obszarze AI*, Silesian Startup Foundation, Katowice 2025.
+
+## Zakres dokumentu
+
+### Terytorialny
+- Obszar: Górnośląsko-Zagłębiowska Metropolia (GZM)
+- Struktura: 41 miast i gmin
+- Kontekst: Policentryczna konurbacja, region postindustrialny
+
+### Tematyczny
+- Główny temat: Transformacja regionu w hub gospodarki opartej na AI
+- Obszary kluczowe: Przemysł 4.0/5.0, Smart Mobility, E-administracja, Edukacja
+- Analiza: Podaż (potencjał) vs. Popyt (potrzeby)
+
+## Kluczowe fakty
+
+### Status strategiczny
+- Data: 17 listopada 2025
+- Decyzja: Ministerstwo Cyfryzacji uznało GZM za wiodący krajowy ośrodek rozwoju AI
+- Wejście w życie: 1 stycznia 2027
+- Implikacje: Dostęp do centralnego finansowania i superkomputerów
+
+### Główne wnioski TL;DR
+
+1. **Problem strukturalny**: Silne zaplecze przemysłowe i akademickie, ale rozdrobnienie decyzyjne (41 gmin), drenaż talentów, brak kultury startupowej
+
+2. **Główna szansa**: Transformacja przemysłu w Przemysł 4.0/5.0 i wykorzystanie AI do integracji usług publicznych ponad granicami administracyjnymi
+
+3. **Strategia GZM AI-Ready**: GZM jako "Integrator" – nie budowanie gigantów technologicznych od zera, ale dostarczanie infrastruktury (dane), kompetencji (edukacja) i rynku (bony wdrożeniowe)
+
+4. **Pilotaże**: Voicebot w ZTM, system analizy zgłoszeń mieszkańców, metropolitalne standardy danych
+
+## Podaż: Potencjał GZM
+
+### Kapitał naukowy
+- Politechnika Śląska: Lider innowacji w Polsce (wg Urzędu Patentowego RP), POB "AI i Przetwarzanie Danych", ~200 naukowców
+- Uniwersytet Śląski: Nowy kierunek "Data Science i Sztuczna Inteligencja" (2025/2026)
+- Sieć Łukasiewicz-AI: 120+ ekspertów, >50 projektów B+R, planowane Krajowe Centrum Zaufanej AI
+- Inne: UE Katowice, ŚUM, uczelnie niepubliczne (WSB, Humanitas, Górnośląska, Śląska, WSTI)
+
+### Infrastruktura obliczeniowa
+- CETINO (Centrum Technologii i Nauk Obliczeniowych): 127 mln zł, realizacja 2024-2027, model "competence as a service"
+- GECON.II: Architektura HPC "fat-node" (128 rdzeni, 2 TB RAM/węzeł)
+- ŚASK: Regionalny węzeł sieci PIONIER, przepustowość 100-200 Gb/s
+
+### Kapitał technologiczny
+- Trzeci największy ośrodek firm IT w Polsce (>250 software house'ów)
+- Profilowanie: Industrial AI, MedTech, Deep-tech
+
+#### Kluczowe startupy/scale-upy
+- **KP Labs** (Gliwice): Kosmos, przetwarzanie danych na orbicie (Leopard, Herd)
+- **AIUT** (Gliwice): 1000 pracowników, automatyka przemysłowa, machine vision, edge computing
+- **Future Processing** (Gliwice): 800+ osób, spin-offy (Graylight Imaging, Sens.AI)
+- **3Soft/Occubee** (Katowice): 4.3 mln EUR (2023), ML dla handlu detalicznego
+- **SR Robotics** (Katowice): 8.4 mln EUR (2025), robotyka podwodna
+- **co.brick** (Gliwice): Monitoring maszyn, predykcja awarii
+
+#### Przemysł
+- Silesia Automotive & Advanced Manufacturing (SA&AM): >260 podmiotów
+- Stellantis (Tychy): 1.3 mld zł, e-mobilność + AI
+- Tauron: System OPTI AI UNIT (predykcja awarii bloków energetycznych)
+
+#### Infrastruktura wspierająca
+- Katowicki Hub Gamingowo-Technologiczny: >1 mld zł
+- EDIH Smart Secure Cities: Partner
+- Klaster Sinotaic: IoT & AI
+
+### Administracja publiczna
+- **GZM Data Store**: 646 zbiorów danych (poziom 5 otwartości), dane z 28 gmin
+- **ZTM**: System SDIP (340 tablic, GPS), system zliczania pasażerów
+- **Wydział Wsparcia Operacyjnego AI** w ZTM (listopad 2025)
+- Aplikacja Transport GZM: 46% wartości sprzedanych biletów (I połowa 2025)
+- Planowane: Polski LLM (PLLuM) ze względu na bezpieczeństwo danych
+
+## Popyt: Potrzeby i oczekiwania
+
+### Sektor biznesowy i przemysłowy
+
+#### Obszary zastosowań AI
+1. **Przemysł 4.0/5.0**
+   - Predictive Maintenance
+   - Computer Vision (kontrola jakości)
+   - Autonomizacja logistyki (AMR/AGV)
+   - Optymalizacja łańcucha dostaw
+
+2. **BPO/SSC (Nowoczesne Usługi dla Biznesu)**
+   - Transformacja z BPO → KIBS (Knowledge Intensive Business Services)
+   - Zapotrzebowanie: "Aftercare", wsparcie w walce o zaawansowane projekty
+   - Cel: Unikanie redukcji zatrudnienia przez automatyzację
+
+3. **Smart City i mobilność**
+   - Autonomiczny transport publiczny (Blees - minibusy)
+   - ITS (Intelligent Transport Systems)
+   - Smart grid, optymalizacja energii
+
+#### Bariery wdrożeniowe
+- Zderzenie deterministycznej automatyki z probabilistycznym AI
+- Brak zaufania do modeli AI w procesach krytycznych dla bezpieczeństwa
+- Luki kompetencyjne
+- Fragmentacja systemów IT (25 odrębnych projektów e-administracji)
+
+### Nauka i edukacja
+- Konieczność reskillingu kadr
+- Adaptacja programów nauczania do AI
+- Szkolenia dla administracji publicznej (9-12 tys. urzędników)
+
+### Administracja publiczna
+- Automatyzacja obsługi mieszkańca
+- Integracja usług metropolitalnych
+- Voicebot na infolinii ZTM (I połowa 2026)
+- Analiza zgłoszeń mieszkańców
+
+## Strategia: GZM AI-Ready (si4śl)
+
+### Wizja
+**si4śl** - Sztuczna Inteligencja dla Śląskiego
+
+### Rola GZM
+**Integrator** - nie budowanie własnych gigantów technologicznych, ale:
+- Infrastruktura (dane)
+- Kompetencje (edukacja)
+- Rynek (bony wdrożeniowe dla gmin)
+
+### Analiza SWOT (skrót)
+- **Strengths**: Silna baza przemysłowa i akademicka, 646 zbiorów danych
+- **Weaknesses**: Rozdrobnienie (41 gmin), drenaż talentów, słaba kultura startupowa
+- **Opportunities**: Fundusze centralne (od 2027), transformacja przemysłu, integracja metropolitalna
+- **Threats**: Konkurencja innych regionów, niedobór talentów, ryzyko technologiczne
+
+## Benchmarki międzynarodowe
+
+1. **Bilbao**: Applied AI Ecosystem (transformacja przemysłowa)
+2. **Dublin**: Knowledge-Intensive Services (ewolucja usług)
+3. **Helsinki**: Human-Centric AI (zaufanie i edukacja)
+4. **Warszawa**: Distributed Data Governance (administracja)
+
+## Metodologia badawcza
+
+### Metody
+- Desk Research 2.0 (NotebookLM, LLM jako red teaming)
+- Wywiady pogłębione (IDI) z ekspertami
+- Warsztaty strategiczne w Metrolabie (23 i 30 października 2025)
+- Badanie ilościowe CAWI (N=53, AIBA, Śniadania AI)
+
+### Wykorzystanie AI w badaniach
+- Narzędzia: NotebookLM, Gemini, ChatGPT-4, Grok, Claude
+- Funkcja: Analiza desk research, weryfikacja krzyżowa (red teaming)
+- Odpowiedzialność: Finalna weryfikacja merytoryczna przez autorów ludzkich
+
+## Definicje kluczowe
+
+### Sztuczna Inteligencja (AI)
+Zgodnie z AI Act (UE 2024/1689): System maszynowy zaprojektowany do działania z różnym poziomem autonomii, generujący wyniki (przewidywania, zalecenia, decyzje) wpływające na środowisko. Obejmuje ML, robotykę, Big Data, systemy ekspertowe, nie tylko generatywną AI (LLM).
+
+### Metropolitalność cyfrowa
+Zdolność związku gmin do świadczenia zintegrowanych usług cyfrowych przekraczających granice administracyjne. GZM jako Data Steward (Integrator danych).
+
+### Ekosystem AI
+Integracja czterech czynników:
+1. Dane (GZM Data Store)
+2. Wiedza i kompetencje (uczelnie)
+3. Finansowanie (fundusze celowe)
+4. Infrastruktura (HPC)
+
+## Kontekst czasowy
+- Data publikacji: 2025
+- Horyzont strategiczny: 2022-2027 (Strategia Rozwoju GZM)
+- Kluczowa data: 1.01.2027 (wejście w życie statusu wiodącego ośrodka AI)
+
+## Kontakt i współpraca
+Wydawca: Silesian Startup Foundation
+Adres: ul. Kaczyniec 9, 44-100 Gliwice
+Projekt graficzny: domaracki.design
+
+---
+
+# Dla agentów AI: Kluczowe informacje do ekstrakcji
+
+## Jeśli pytanie dotyczy:
+
+### Potencjału naukowego GZM
+→ Politechnika Śląska (POB AI, ~200 naukowców), UŚ (Data Science), Łukasiewicz-AI (120 ekspertów), CETINO (127 mln zł)
+
+### Startupów AI w regionie
+→ KP Labs (kosmos), AIUT (automatyka, 1000 osób), Future Processing (800 osób), Occubee, SR Robotics, co.brick
+
+### Danych publicznych
+→ GZM Data Store (646 zbiorów), dane transportowe ZTM (SDIP, GPS, liczniki pasażerów)
+
+### Barier wdrożenia AI
+→ Rozdrobnienie 41 gmin, drenaż talentów, kultura startupowa, zderzenie determinizm-probabilistyka, fragmentacja IT
+
+### Strategii
+→ GZM jako "Integrator" nie producent, si4śl, pilotaże: voicebot ZTM, analiza zgłoszeń, standardy danych
+
+### Statusu prawnego
+→ Ministerstwo Cyfryzacji, 17.11.2025, wiodący ośrodek od 1.01.2027, dostęp do superkomputerów
+
+### Zastosowań AI
+→ Przemysł 4.0 (predictive maintenance, computer vision), BPO→KIBS, Smart Mobility (autonomiczne pojazdy, ITS)
+
+### Metodologii badania
+→ Mixed-methods: desk research + AI (NotebookLM, LLM red teaming), IDI, warsztaty, CAWI N=53
